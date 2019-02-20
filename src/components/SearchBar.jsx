@@ -5,13 +5,14 @@ class SearBar extends React.Component {
         super(props)
 
         this.state = {
-            term: 'type shit here'
+            term: ''
         };
     }
-    onFormSubmit(event) {
+    onFormSubmit = (event) => {
         event.preventDefault();
 
-    }
+        this.props.onSubmit(this.state.term);
+    };
    
     render() { 
         return (
