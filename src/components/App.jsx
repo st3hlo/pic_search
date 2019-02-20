@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SearchBar from './SearchBar';
-import ImageList from './ImageList';
+import SearchBar from './search-bar/SearchBar';
+import ImageList from './image-list/ImageList';
 
 import unsplash from '../api/unsplash';
 
